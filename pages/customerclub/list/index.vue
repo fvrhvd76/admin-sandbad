@@ -171,7 +171,7 @@
           >
             <v-icon> mdi-format-list-bulleted </v-icon>
           </v-btn>
-          <v-btn
+          <!-- <v-btn
             fab
             x-small
             depressed
@@ -179,7 +179,7 @@
             @click="openConfirmModal(item.id)"
           >
             <v-icon> mdi-delete </v-icon>
-          </v-btn>
+          </v-btn> -->
         </template>
 
         <template #[`body.append`]>

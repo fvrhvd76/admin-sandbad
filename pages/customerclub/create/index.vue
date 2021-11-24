@@ -426,7 +426,7 @@ export default class index extends Vue {
   ];
   private generalList = [
     { name: "عمومی", value: true },
-    { name: "جزئی", value: false }
+    { name: "قابل خرید", value: false }
   ];
   private typeDiscount: boolean = true;
   private is_limit: boolean = true;
