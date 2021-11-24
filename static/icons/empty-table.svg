@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.333" height="60.643" viewBox="0 0 72.333 60.643">
+  <g id="Group_32" data-name="Group 32" transform="translate(-434.333 -704.79)">
+    <g id="collection" transform="translate(434.167 702.79)">
+      <rect id="Rectangle_752" data-name="Rectangle 752" width="68.333" height="35.793" transform="translate(2.167 24.849)" fill="none" stroke="#909090" stroke-width="4"/>
+      <path id="Path_269" data-name="Path 269" d="M4,17.675V7H60.934V17.675" transform="translate(3.866 7.675)" fill="none" stroke="#909090" stroke-width="4"/>
+      <path id="Path_270" data-name="Path 270" d="M6,14.675V4H48.7V14.675" transform="translate(8.983 0)" fill="none" stroke="#909090" stroke-width="4"/>
+    </g>
+    <g id="x_3_" data-name="x (3)" transform="translate(479 737.5)">
+      <line id="Line_35" data-name="Line 35" x1="8" y2="8" transform="translate(5 5)" fill="#fff" stroke="#909090" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="Line_36" data-name="Line 36" x2="8" y2="8" transform="translate(5 5)" fill="#fff" stroke="#909090" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <g id="x_3_2" data-name="x (3)" transform="translate(444 737.5)">
+      <line id="Line_35-2" data-name="Line 35" x1="8" y2="8" transform="translate(5 5)" fill="#fff" stroke="#909090" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="Line_36-2" data-name="Line 36" x2="8" y2="8" transform="translate(5 5)" fill="#fff" stroke="#909090" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <line id="Line_65" data-name="Line 65" x2="17" transform="translate(462.5 746.5)" fill="none" stroke="#909090" stroke-width="4"/>
+  </g>
+</svg>

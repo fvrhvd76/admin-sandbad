@@ -1,0 +1,177 @@
+:root {
+  --bs-primary: #f48c3a;
+}
+
+body {
+  font-family: "dana";
+}
+
+@font-face {
+  font-family: "dana";
+  font-style: normal;
+  font-weight: 400;
+  src: url("~assets/fonts/Dana-FaNum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dana";
+  font-style: normal;
+  font-weight: bold;
+  src: url("~assets/fonts/Dana-FaNum-Bold.ttf") format("truetype");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  font-family: "dana" !important;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px !important;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-16 {
+  font-size: 16px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+.font-9 {
+  font-size: 9px;
+}
+.font-8 {
+  font-size: 8px;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.empty-table-icon {
+  width: 139px;
+  height: 139px;
+  border-radius: 20px;
+  background-color: #e1e1e1;
+}
+
+.v-dialog {
+  direction: ltr;
+}
+
+::-webkit-scrollbar {
+  padding: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f48c3a;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+}
+
+.v-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.v-input::-webkit-outer-spin-button,
+.v-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.v-input[type="number"] {
+  -moz-appearance: textfield;
+}
+.v-input::-webkit-outer-spin-button,
+.v-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+tbody tr:hover {
+  background-image: linear-gradient(to right, #fcb224, #f48c3a) !important;
+}
+
+thead th:hover {
+  color: var(--bs-primary) !important;
+}
+@media (max-width: 600px) {
+  #app
+    > div
+    > main
+    > div
+    > div
+    > div.v-data-table.elevation-1.v-data-table--has-top.theme--light
+    > div
+    > table
+    > thead
+    > tr
+    > th {
+    display: none !important;
+  }
+}
